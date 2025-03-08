@@ -2,7 +2,7 @@
         var input = document.getElementById("nhapngaysinh").value;
         
         if (input === "08/03/2003") {
-            window.open("happy-birthday-main/Nextpage.html", "_self");
+            window.open("happy-birthday-main/nextpage.html", "_self");
         } else {
             alert("Ngày sinh không chính xác!");
         }
