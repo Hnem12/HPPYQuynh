@@ -2,7 +2,7 @@
         var input = document.getElementById("nhapngaysinh").value;
         
         if (input === "08/03/2003") {
-            window.location.href = "index1.html"; // Chuyển đến trang tiếp theo
+            window.open("happy-birthday-main/Nextpage.html", "_self");
         } else {
             alert("Ngày sinh không chính xác!");
         }
